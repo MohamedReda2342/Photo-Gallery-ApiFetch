@@ -7,90 +7,31 @@
 </head>
 <body>
 <!-- ----------------------------------------------------------------------------------------------------------------- -->
-<h2 style="text-align:center"> Image Gallery</h2>
+<h2 style="text-align:center"> Image Modal</h2>
 <br>
 <div class="container md">
 
-<!-- Grid of images -->
-<!-- #region -->
-  <!-- IMAGES -->
+<!-- #region Grid of images -->
   <div class="row d-flex justify-content-around " id="imgs">
-      <div class="col-xl-3 ">
-        <img src="/assets/img_lights.jpg" id="img_lights" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal" alt="Lights">
-      </div>
-      <div class="col-xl-3">
-        <img src="/assets/img_mountains.jpg" id="img_mountains" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal" alt="Mountains">
-      </div>
-      <div class="col-xl-3">
-        <img src="/assets/img_nature.jpg" id="img_nature" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal" alt="Nature">
-      </div>
-      <div class="col-xl-3">
-        <img src="/assets/img_snow.jpg" id="img_snow" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#myModal" alt="Snow">
-      </div>
+    <!-- JavaScript code will populate these images -->
   </div>
+
+
 <!-- #endregion -->
 <!-- -------------------------------------------- -->
   <!-- Modal -->
   <div class="modal fade" id="myModal">
     <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-<!-- #region -->
-<!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div class="modal-content" id="momm"  >
 
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-  </div>
-  
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner carousel_images">
-    <div class="carousel-item active">
-      <img src="assets/img_lights.jpg"  class="d-block" style="width:100%">
-      <div class="carousel-caption">
-        <p>this is picture 1 caption</p>
-    </div>
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img_mountains.jpg"  class="d-block" style="width:100%">
-      <div class="carousel-caption">
-        <p>this is picture 2 caption</p>
-    </div>
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img_nature.jpg"  class="d-block" style="width:100%">
-      <div class="carousel-caption">
-        <p>this is picture 3 caption</p>
-    </div>
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img_snow.jpg"  class="d-block" style="width:100%">
-      <div class="carousel-caption">
-        <p>this is picture 4 caption</p>
-    </div>
+       </div>
     </div>
   </div>
-  
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-<!-- #endregion -->
-</div>
-</div>
-</div>
 
 <!-- ------------------------------------------------------------------------------------------- -->
 </div>
-<script src="Scripts/jquery-3.6.0.js" ></script>
-<script src="Scripts/bootstrap.js" ></script>
 <script src="main.js"></script>
+
+<script src="Scripts/bootstrap.js" ></script>
 </body>
 </html>
